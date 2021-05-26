@@ -1,4 +1,5 @@
 import React from "react";
+import bootstrap from "bootstrap";
 
 export default function Weather() {
   let weatherData = {

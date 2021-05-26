@@ -1,14 +1,27 @@
 import React from "react";
-import "./App.css";
+import React from "react";
+import Header from "./Header";
+import Search from "./Search";
+import City from "./City";
+import Temperature from "./Temperature";
 import Weather from "./Weather";
+import Footer from "./Footer";
 
-function App() {
+import "./App.css";
+
+export default function container() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Weather app</h1>
-        <Weather />
-      </header>
+    <div className="container">
+      <div className="weather-block">
+        <Header />
+        <Search />
+        <div className="row col-auto p-2">
+          <City />
+          <Temperature />
+          <Weather />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
