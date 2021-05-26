@@ -19,7 +19,7 @@ export default function Search() {
               type="submit"
               value="Search"
             >
-              Go {">"}>
+              Go {">"}
             </button>
             <button type="button" className="btn btn-dark" id="current-loc">
               Current location
