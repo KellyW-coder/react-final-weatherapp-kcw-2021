@@ -1,38 +1,110 @@
-.App {
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #c3fbff;
+  background-image: "https://www.freepik.com/free-vector/geometric-background_13088128.htm";
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
   text-align: center;
+  background-color: #00d9ff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 26px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 38px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
+  line-height: 1.3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.temp {
+  font-size: 75px;
+  line-height: 1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.weather-block {
+  border: 1px solid #00d9ff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #818181;
+  font-size: 16px;
+  line-height: 2px;
+  height: 20px;
+  list-style: none;
+}
+
+.units {
+  position: relative;
+  top: -5px;
+}
+.weather-forecast {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  opacity: 0.6;
+}
+
+.card-body {
+  margin-top: -10px;
+  margin-bottom: -25px;
+}
+
+.figure {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-footer {
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+figcaption:first-letter,
+section:first-letter {
+  margin-right: 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.btn-dark:hover {
+  color: #00d9ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+.units .active {
+  color: #000000;
 }
