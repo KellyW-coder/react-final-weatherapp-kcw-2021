@@ -1,5 +1,4 @@
 import React from "react";
-import React from "react";
 import Header from "./Header";
 import Search from "./Search";
 import City from "./City";
@@ -9,7 +8,7 @@ import Footer from "./Footer";
 
 import "./App.css";
 
-export default function container() {
+export default function App() {
   return (
     <div className="container">
       <div className="weather-block">
@@ -25,5 +24,3 @@ export default function container() {
     </div>
   );
 }
-
-export default App;
